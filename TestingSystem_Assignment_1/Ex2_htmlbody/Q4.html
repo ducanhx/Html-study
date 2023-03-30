@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+    <h1>Register</h1>
+    <p><i>Please <b>fill this form</b> to create an account</i></p>
+    <form>
+    <p>Full name <span style="color:red">*</span></p>
+        <div><input type="text" name="fname" placeholder="Input your fullname..." required></div>
+    <p>Username <span style="color:red">*</span></p>
+        <div><input type="text" name="Username" placeholder="Input your username..." required></div>
+    <p>Password <span style="color:red">*</span></p>
+        <div><input type="password" name="password" placeholder="Input your password..." required></div>
+    <p>Email <span style="color:red">*</span></p>
+        <div><input type="email" name="email" placeholder="Input your email..." required></div>
+    <p>Telephone number <span style="color:red">*</span></p>
+        <div><input type="tel" name="phone" placeholder="Input your phone number..." required></div>
+    <p>Input Object:</p>
+        <div><input type="radio" id="Student" name="Objectname" value="Student">
+    <label for="Student">Student</label>   
+        <input type="radio" id="Teacher" name="Objectname" value="Teacher">
+    <label for="Teacher">Teacher</label></div>
+    <p>Favorite:</p>
+        <div><input type="checkbox" id="sport1" name="Objectname" value="Badminton">
+    <label for="sport1">Badminton</label>
+        <input type="checkbox" id="sport2" name="Objectname" value="Volleyball">
+    <label for="sport2">Volleyball</label>
+        <input type="checkbox" id="sport3" name="Objectname" value="Football">
+    <label for="sport3">Football</label></div>
+    <p>Address <span style="color:red">*</span></p>
+        <div><select name="chontinh">
+        <option value="">Chọn tỉnh</option>
+        <option value="hn">Hà nội</option>
+        <option value="hcm">Hồ Chí Minh</option>
+        <option value="dn">Đà Nẵng</option>
+        <option value="ct">Cần Thơ</option>
+        <option value="hp">Hải Phòng</option>
+        </select></div>
+    <p><label for="birthday">Birthday <span style="color:red">*</span></label></p>
+        <div><input type="date" id="birthday" name="birthday"></div>
+    <p>Your picture <span style="color:red">*</span></p>
+        <div><input type="file" name="pic" accept="image/*" required></div>
+        <br><br>
+    
+    <button type="submit">Đăng ký</button>
+
+
+</form>
+</body>
+</html>
